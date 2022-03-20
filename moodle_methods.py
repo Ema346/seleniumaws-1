@@ -129,23 +129,23 @@ def create_new_user():
 
     # Upload picture to the User Picture section
     # Click by 'You can drag and drop files here to add them.' section
-    driver.find_element(By.CLASS_NAME, 'dndupload-arrow').click()
-    sleep(0.25)
-    driver.find_element(By.PARTIAL_LINK_TEXT, 'Server files').click()
-    sleep(0.25)
-    driver.find_element(By.PARTIAL_LINK_TEXT, 'Cosmetics').click()
-    sleep(0.25)
-    driver.find_element(By.PARTIAL_LINK_TEXT, 'Biotherm 2021 fall school').click()
-    sleep(0.25)
-    driver.find_element(By.PARTIAL_LINK_TEXT, 'Course image').click()
-    sleep(0.25)
-    driver.find_element(By.PARTIAL_LINK_TEXT, 'BT2021fall.png').click()
-    sleep(0.25)
+    # driver.find_element(By.CLASS_NAME, 'dndupload-arrow').click()
+    # sleep(0.25)
+    # driver.find_element(By.PARTIAL_LINK_TEXT, 'Server files').click()
+    # sleep(0.25)
+    # driver.find_element(By.PARTIAL_LINK_TEXT, 'Cosmetics').click()
+    # sleep(0.25)
+    # driver.find_element(By.PARTIAL_LINK_TEXT, 'Biotherm 2021 fall school').click()
+    # sleep(0.25)
+    # driver.find_element(By.PARTIAL_LINK_TEXT, 'Course image').click()
+    # sleep(0.25)
+    # driver.find_element(By.PARTIAL_LINK_TEXT, 'BT2021fall.png').click()
+    # sleep(0.25)
     # Click by 'Select this file' button
-    driver.find_element(By.XPATH, '//button[contains(., "Select this file")]').click()
-    sleep(0.250)
+    # driver.find_element(By.XPATH, '//button[contains(., "Select this file")]').click()
+    # sleep(0.250)
     # Enter value to the 'Picture description' open field
-    driver.find_element(By.ID, 'id_imagealt').send_keys(locators.pic_desc)
+    # driver.find_element(By.ID, 'id_imagealt').send_keys(locators.pic_desc)
     sleep(0.25)
     # Click by 'Additional names' dropdown menu
     driver.find_element(By.XPATH, '//a[contains(., "Additional names")]').click()
